@@ -26,6 +26,9 @@ const UnconnectedLinkMenu: React.FC<Props> = ({
         <Menu.Item name="shop">
           <Link to="/shop">Shop</Link>
         </Menu.Item>
+        <Menu.Item name="demo">
+          <Link to="/demo">Demo</Link>
+        </Menu.Item>
         <Menu.Item name="cart">
           <Link to="/cart">Cart ({numberOfItems})</Link>
         </Menu.Item>

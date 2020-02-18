@@ -5,6 +5,7 @@ import { Switch, Route } from "react-router-dom";
 import { Shop } from "./components/main/shop/Shop";
 import { Cart } from "./components/main/cart/Cart";
 import { Login } from "./components/main/auth/Login";
+import { Demo } from "./components/main/demo/Demo";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/shop" component={Shop} />
         <Route path="/cart" component={Cart} />
         <Route path="/login" component={Login} />
+        <Route path="/demo" componen={Demo} />
       </Switch>
     </Container>
   );
